@@ -1,8 +1,8 @@
 naam = prompt("Wat is je naam?");
 alert("Hallo, " + naam);
+achternaam = prompt("Wat is je achternaam?");
 leeftijd = prompt("Hoe oud ben jij?");
-adres = prompt("Waar ben je geboren?");
-gegevens = [naam, leeftijd, adres];
+gegevens = [naam, achternaam, leeftijd];
 let text = "";
 
 for (let i = 0; i < gegevens.length; i++) {
