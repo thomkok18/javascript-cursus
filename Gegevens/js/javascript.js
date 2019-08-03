@@ -1,7 +1,7 @@
 naam = prompt("Wat is je naam?");
 alert("Hallo, " + naam);
 leeftijd = prompt("Hoe oud ben jij?");
-adres = prompt("Wat is je adres?");
+adres = prompt("Waar ben je geboren?");
 gegevens = [naam, leeftijd, adres];
 let text = "";
 
